@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Uslugi medyczne (rozwiazanie 2)" id="80E1EC7F-EE51-2C0C-875C-D2510E9AE9E3" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:09:57 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>80E1EC7F-EE51-2C0C-875C-D2510E9AE9E3</designId>
+</OSDM_Design>

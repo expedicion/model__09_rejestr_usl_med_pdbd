@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71CDBE2F-F931-55B3-1782-CCC0AF20E28C" name="JEDNOSTKA_CHOROBOWA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 13:43:14 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA_JCH" id="E59654B2-2714-47D0-7EB3-788AD2DE1344">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:08:15 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD" id="E32CDC12-DBB4-266B-75DE-6B4796FB9CF5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:08:33 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B0AB493-BB63-05F0-C493-9EE45AA0678B" name="JEDNOSTKA_CHOROBOWA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:08:41 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E59654B2-2714-47D0-7EB3-788AD2DE1344</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

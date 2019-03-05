@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="95CD610B-18ED-A394-992D-37FBA84B51EC">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 13:54:54 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<sourcePk>AF4D5A2E-C733-7961-CD72-25B0BDBC02B8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1DDC27D0-42E7-8B9E-4D65-D4CD47599890</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>221E4065-CD88-719D-649F-C178E8F71976</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

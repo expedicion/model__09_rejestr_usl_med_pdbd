@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE23517A-267C-E3F1-C12B-E231BCC04F40" name="CHOROBA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:16:49 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_CHOROBY" id="76489928-6ADB-9A38-2C96-FC927C62D42F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:21:30 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E73646FF-3854-9047-D7B1-E4FE4159CF40" name="CHOROBA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:21:37 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76489928-6ADB-9A38-2C96-FC927C62D42F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

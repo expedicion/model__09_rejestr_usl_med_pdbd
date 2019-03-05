@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F9C9661-F187-97E7-024E-0E154159BF00" name="HISTORIA_PACJENTA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 13:40:57 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DATA" id="3F53A086-5F87-6D19-7F5C-23C704A13A28">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:06:25 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ILOSC_USLUG" id="2701EA21-3353-9264-012E-078029667153">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:07:26 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

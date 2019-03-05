@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D67D21ED-90EA-DB06-BE4B-328E83F7E56B" name="PRZYCZYNA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:10:47 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CZY_GLOWNA" id="5C8F3BB8-10B5-1824-EEAA-CEBAEB671230">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:21:11 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_CHOROBY" id="93097236-291C-0391-D039-F504456DC65C">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:21:38 UTC</createdTime>
+<generatorID>E1BFBD03-275E-F129-1BAC-3CC15E59D584</generatorID>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<referedAttribute>76489928-6ADB-9A38-2C96-FC927C62D42F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2B83FDC-0DBC-7EE8-9B09-C553ADF23A92" name="PRZYCZYNA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:12:39 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93097236-291C-0391-D039-F504456DC65C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

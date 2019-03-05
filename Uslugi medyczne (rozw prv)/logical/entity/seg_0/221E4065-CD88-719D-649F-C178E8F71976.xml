@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="221E4065-CD88-719D-649F-C178E8F71976" name="JEDNOSTKA_WYKONUJACA_USLUGE_MEDYCZNA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 13:46:05 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_JDM" id="7A5EF949-985F-B73E-65A2-BC14BA632A1B">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:05:25 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADRES" id="0EAACF82-40C5-83EA-6C39-35BBC641E070">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:05:38 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGON" id="52EA0AC5-2C9D-7373-A337-12C9FE980E26">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:05:57 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USLUGI" id="5FFBB1C3-5A50-CED2-4FAF-BD302BBA49F6">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:06:56 UTC</createdTime>
+<generatorID>95CD610B-18ED-A394-992D-37FBA84B51EC</generatorID>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<referedAttribute>8ED597B6-A177-FEBF-1D40-F99D0A6634AF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F05CE301-C682-F9EA-0C82-498B8D1ED2FC" name="JEDNOSTKA_WYKONUJACA_USLUGE_MEDYCZNA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:05:36 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<engineerTo>
+<item key="9988927B-4E62-AC53-57D0-5EA00757A79E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A5EF949-985F-B73E-65A2-BC14BA632A1B</attributeRef>
+<attributeRef>5FFBB1C3-5A50-CED2-4FAF-BD302BBA49F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

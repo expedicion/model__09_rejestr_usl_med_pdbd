@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CFD5292A-1CAA-DE31-BF20-7166B897A097">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:09:57 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 1)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

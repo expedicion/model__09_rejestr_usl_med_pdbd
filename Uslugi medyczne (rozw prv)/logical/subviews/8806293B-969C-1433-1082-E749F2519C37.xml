@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="8806293B-969C-1433-1082-E749F2519C37">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-24 13:37:08 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1874E677-5559-DFCD-CDFC-5D56810FC759" otype="Entity" vid="EA56B30B-BFE0-3FE4-2753-08E7634334E8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="551" y="53" width="170" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1DDC27D0-42E7-8B9E-4D65-D4CD47599890" otype="Entity" vid="E35C5AAC-CC0D-91E8-B198-32A484F815D6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="846" y="407" width="235" height="114"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="221E4065-CD88-719D-649F-C178E8F71976" otype="Entity" vid="8496FF0A-0147-CAD6-E160-8E9A7C48A8EA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="844" y="30" width="243" height="151"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2F9C9661-F187-97E7-024E-0E154159BF00" otype="Entity" vid="8ED9190F-296B-F022-8EA6-6BE54F31DFC8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="555" y="406" width="177" height="182"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="65B3BE98-B8BA-96E0-EA20-D1D35890BA08" otype="Note" vid="B36AA39A-90DC-2319-42FA-C6BFE1237E8E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1250" y="86" width="360" height="227"/>
+<comment>Zadanie 4. Rejestr usług&lt;br/&gt;medycznych&lt;br/&gt;Fundusz ochrony zdrowia zbiera informacje o&lt;br/&gt;udzielonych usługach medycznych. W bazie danych&lt;br/&gt;zapisane być muszą dane jednostek udzielających&lt;br/&gt;usług (identyfikowanych 17-znakowym kodem w skład&lt;br/&gt;którego wchodzi numer REGON) i dane pacjentów&lt;br/&gt;(personalia, PESEL, wiek i kod TERYT miejsca&lt;br/&gt;zamieszkania). Dla każdej udzielonej usługi&lt;br/&gt;medycznej trzeba zapamiętać jaka jednostka jej&lt;br/&gt;udzieliła, kiedy i komu. Muszą też być zapisane&lt;br/&gt;przyczyny główne i współistniejące udzielenia usługi&lt;br/&gt;— są nimi choroby opisane kodami&lt;br/&gt;międzynarodowymi.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="71CDBE2F-F931-55B3-1782-CCC0AF20E28C" otype="Entity" vid="DAA91F1C-EE22-1A95-10D1-E4ECEC7F8334">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="233" y="425" width="176" height="105"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="520E2E18-0BD1-98E3-2EED-58BF96A17C1B" otype="Relation" vid_source="8ED9190F-296B-F022-8EA6-6BE54F31DFC8" vid_target="E35C5AAC-CC0D-91E8-B198-32A484F815D6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="732" y="474"/>
+<point x="846" y="474"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="92E5EACD-9E53-0F2E-2E16-612BDD8B1709" otype="Relation" vid_source="DAA91F1C-EE22-1A95-10D1-E4ECEC7F8334" vid_target="DAA91F1C-EE22-1A95-10D1-E4ECEC7F8334">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="409" y="499"/>
+<point x="481" y="499"/>
+<point x="481" y="627"/>
+<point x="318" y="627"/>
+<point x="318" y="530"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="95CD610B-18ED-A394-992D-37FBA84B51EC" otype="Relation" vid_source="E35C5AAC-CC0D-91E8-B198-32A484F815D6" vid_target="8496FF0A-0147-CAD6-E160-8E9A7C48A8EA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="973" y="407"/>
+<point x="973" y="181"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A95875A9-6D61-2AA7-F258-CA0519D57594" otype="Relation" vid_source="8ED9190F-296B-F022-8EA6-6BE54F31DFC8" vid_target="EA56B30B-BFE0-3FE4-2753-08E7634334E8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="638" y="406"/>
+<point x="638" y="183"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CD7BCA14-DF12-62E5-572B-85ADEACB9A30" otype="Relation" vid_source="8ED9190F-296B-F022-8EA6-6BE54F31DFC8" vid_target="DAA91F1C-EE22-1A95-10D1-E4ECEC7F8334">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="555" y="467"/>
+<point x="409" y="467"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

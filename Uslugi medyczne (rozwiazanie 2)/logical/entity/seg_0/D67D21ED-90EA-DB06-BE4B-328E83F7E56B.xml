@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D67D21ED-90EA-DB06-BE4B-328E83F7E56B" name="PRZYCZYNA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:10:47 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_CHOROBY" id="EB80E1AF-3F71-AE08-BEFF-BEA09BB8FCA4">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:23:30 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CZY_GLOWNA" id="5C8F3BB8-10B5-1824-EEAA-CEBAEB671230">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:21:11 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SWIADCZENIA" id="A54E43A7-3E0E-B710-3FFA-84CD5C7D8CCA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:24:19 UTC</createdTime>
+<generatorID>AFEAB60B-52CF-0AF3-CB63-1C1701723B33</generatorID>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<referedAttribute>02CD526B-8869-07EE-C834-12E1CD9B75E6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2B83FDC-0DBC-7EE8-9B09-C553ADF23A92" name="PRZYCZYNA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:12:39 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB80E1AF-3F71-AE08-BEFF-BEA09BB8FCA4</attributeRef>
+<attributeRef>A54E43A7-3E0E-B710-3FFA-84CD5C7D8CCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

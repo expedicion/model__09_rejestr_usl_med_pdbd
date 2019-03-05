@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D842893E-C45B-4B33-CC59-FFA2E2B59FF8" name="PACJENT">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:10:25 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACJENTA" id="81D99C17-4E90-A3F0-C5FF-2F4279FBD532">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:11:31 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="FCC35D5A-E6D5-23AC-F111-E6A087916043">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:11:22 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A50564A2-2ABE-A188-DB2D-6D9250AF2FDA" name="PACJENT PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 14:11:37 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="0B63EC8F-9B71-8517-579D-9F615E05EC02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81D99C17-4E90-A3F0-C5FF-2F4279FBD532</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

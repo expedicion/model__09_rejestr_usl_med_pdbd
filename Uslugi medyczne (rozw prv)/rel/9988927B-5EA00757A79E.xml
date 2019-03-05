@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="9988927B-4E62-AC53-57D0-5EA00757A79E" mainViewID="8FCF0162-82E8-787E-C434-3189E3C4E4D9">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 13:36:24 UTC</createdTime>
+<ownerDesignName>Uslugi medyczne (rozw prv)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
